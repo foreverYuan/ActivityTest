@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cyy.activitytest.life_cycle.LifeActivityA">
+
+    <Button
+        android:id="@+id/btn_jump_lifeActivityB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到LifeActivityB页面"
+        android:textAllCaps="false"
+        android:onClick="doClick"/>
+    <Button
+        android:id="@+id/btn_bomb_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="弹框"
+        android:textAllCaps="false"
+        android:onClick="doClick"/>
+
+</LinearLayout>
